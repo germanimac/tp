@@ -1,0 +1,49 @@
+body{
+    background-color:#642607;
+}
+
+.capa{
+    width: 95%;
+    height: 30vw;
+    object-fit: cover;
+    margin-top: -0.5em;
+    padding-left: 3%;
+}
+
+.pic{
+    position: relative;
+    float: left;
+    margin-top: -10vw; 
+    margin-left: 5%;
+}
+
+.text{
+    position: relative;
+    float: left;
+    color: #ffffff;
+    font-size: 2em; 
+    padding-left: 2%;
+    padding-top: -2%;
+}
+
+a{
+    position: relative;
+    float: right;
+    color: black;
+    float: right;
+    margin-right: 8%;
+    margin-top: 2.8vw;
+}
+.paragrafoLeft{
+    text-align:left;
+    height: 200;
+    width: 100%;
+    padding-top: 5%;
+    clear: both;
+}
+.paragrafoCenter{
+    text-align:center;
+    width: 100%;
+    padding-top: 5%;
+    clear: both;
+}
