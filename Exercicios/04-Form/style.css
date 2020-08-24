@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.titulo-secao span {
+    font-size: 1.5em;
+}
+.dados {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grupo {
+    margin: 2px;
+    width: 100%;
+    display: inline-flex;
+}
+.titulo {
+    margin-right: 5px;
+    background-color: #97d18c;
+    padding: 15px;
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.titulo span{
+    
+    text-transform: uppercase;
+    color: #021a00;
+    font-size: 1em;
+
+}
+.input {
+    display: inline-flex;
+    width: 60%;
+    padding: 10px;
+    background-color: #3acf53;
+    height: auto;
+}
+.languages{
+    width: 60%;
+    padding: 10px;
+    background-color: #3acf53;
+    height: auto;
+}
+.input input,select, textarea{
+    width: 60%;
+    height: 30px ;
+}
+.input-radio{
+    width: 10% !important;
+    height: 12px !important;
+}
+.grupo-checkbox input {
+    width: 15%;
+    height: 18px;
+}
+.grupo-checkboxo span {
+    padding: 0px;
+}
+.buttons{
+    
+}
+
+@media(max-width: 900px ){
+    .dados{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
