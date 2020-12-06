@@ -1,7 +1,6 @@
 {
-  "name": "trabalho-tp",
+  "name": "s",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +16,7 @@
     "ibm-watson": "^5.7.1",
     "nodemon": "^2.0.6",
     "yarn": "^1.22.10"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
