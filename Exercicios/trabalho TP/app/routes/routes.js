@@ -1,6 +1,6 @@
 var express = require('express');
 module.exports = function (route)  {
-    route.get('/', function (req, res) {
+    route.get('/index', function (req, res) {
         route.app.controller.controllerSite.index(route, req, res);
         //route acessa o app, o app o controller que enfim acessa chatbot que renderiza index;
     });
